@@ -7,6 +7,10 @@
     font-family: "Fira Sans", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 html,
 body {
     width: 100%;
