@@ -13,8 +13,12 @@
     </head>
     <body class="w-screen overflow-x-hidden">
         <div
+            id="cursor"
+            class="absolute pointer-events-none w-4 h-4 rounded-full bg-black z-[9999]"
+        ></div>
+        <div
             id="hidden-nav"
-            class="h-screen w-[30vw] absolute z-[99] right-[-30vw] flex flex-col justify-evenly"
+            class="h-screen w-screen md:w-[30vw] absolute z-[99] right-[-100vw] md:right-[-30vw] flex flex-col justify-evenly"
         >
             <div id="top" class="relative h-1/4 p-6">
                 <button
@@ -24,11 +28,11 @@
                     x
                 </button>
             </div>
-            <div id="mid" class="cursor-pointer px-16 flex flex-col gap-4">
-                <h1 class="text-6xl font-bold">Home</h1>
-                <h1 class="text-6xl font-bold">About</h1>
-                <h1 class="text-6xl font-bold">All Blogs</h1>
-                <h1 class="text-6xl font-bold">Contact</h1>
+            <div id="mid" class="cursor-pointer px-16 flex flex-col gap-6">
+                <h1 class="sm:text-6xl text-[10vw] font-bold">Home</h1>
+                <h1 class="sm:text-6xl text-[10vw] font-bold">About</h1>
+                <h1 class="sm:text-6xl text-[10vw] font-bold">About</h1>
+                <h1 class="sm:text-6xl text-[10vw] font-bold">About</h1>
             </div>
             <div class="top h-1/4"></div>
         </div>
